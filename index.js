@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import bodyParser from "body-parser";
 import profileRoutes from "./routes/profileRoutes.js";
-import dotenv from "dotenv";
+import "dotenv/config";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
